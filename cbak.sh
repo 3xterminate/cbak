@@ -14,7 +14,7 @@ function help { # help menu
 function about {
 	echo -e "cbak v1.0 (c) 2018 - ThyGreg"
 	echo -e "This script was written by \e[92m\e[5mGregor Löffler\e[0m."
-	echo -e "Gitlab: \e[94mhttps://github.com/ThyGreg\e[0m"
+	echo -e "Github: \e[94mhttps://github.com/ThyGreg\e[0m"
 	exit
 }
 
