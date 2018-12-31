@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# cbak.py v1.0
+# cbak.py v2.0
 import argparse
 import glob
 import os
