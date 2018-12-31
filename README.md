@@ -1,2 +1,2 @@
 # cbak
-Backup creation bash script
+Backup creation python script
