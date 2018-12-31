@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo cp cbak.sh /usr/bin/cbak
+sudo cp cbak.py /usr/bin/cbak
 sudo chmod +x /usr/bin/cbak
