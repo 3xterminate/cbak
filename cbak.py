@@ -71,12 +71,27 @@ def unbackup(folder):
 parser = argparse.ArgumentParser(
     description="Fast and easy backup creation tool.")
 parser.add_argument("-f", "--file", nargs="+", help="File to backup")
-parser.add_argument("-c", "--clear", metavar="FOLDER", nargs="?",
-                    const=".", help="delete all backups in folder")
-parser.add_argument("-u", "--unbackup", metavar="FOLDER",
-                    nargs="?", const=".", help="unbackup all backups in folder")
-parser.add_argument("-l", "--list", metavar="FOLDER", nargs="?",
-                    const=".", help="list all backups in folder")
+parser.add_argument(
+    "-c",
+    "--clear",
+    metavar="FOLDER",
+    nargs="?",
+    const=".",
+    help="delete all backups in folder")
+parser.add_argument(
+    "-u",
+    "--unbackup",
+    metavar="FOLDER",
+    nargs="?",
+    const=".",
+    help="unbackup all backups in folder")
+parser.add_argument(
+    "-l",
+    "--list",
+    metavar="FOLDER",
+    nargs="?",
+    const=".",
+    help="list all backups in folder")
 args = parser.parse_args()
 
 if args.list:
